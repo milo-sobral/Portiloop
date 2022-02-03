@@ -1,3 +1,4 @@
+from matplotlib import units
 from setuptools import setup, find_packages
 
 
@@ -15,7 +16,8 @@ install_requires = [
     'scipy',
     'matplotlib',
     'requests',
-    'pyinstrument'
+    'pyinstrument',
+    'unittest'
 ]
 
 setup(name='portiloop',
